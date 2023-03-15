@@ -4,13 +4,11 @@ build-backend = "hatchling.build"
 
 [project]
 name = "md2shunn"
-version = "0.9.0"
+version = "0.9.1"
 authors = [
     { name = "Brian Seitz", email = "brnstz@gmail.com" },
 ]
-description = """Converts Markdown (.md) files into Proper Manuscript
-Format for fiction writers (a.k.a. Shunn Format, https://www.shunn.net/format/)
-as a Word (.docx) file."""
+description = "Converts Markdown (.md) files into Proper Manuscript Format for fiction writers (a.k.a. Shunn Format, https://www.shunn.net/format/) as a Word (.docx) file."
 readme = "README.md"
 requires-python = ">=3.7"
 classifiers = [
