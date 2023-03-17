@@ -3,12 +3,22 @@
 Converts Markdown (.md) files into Proper Manuscript Format for fiction writers
 (a.k.a. Shunn Format, https://www.shunn.net/format/) as a Word (.docx) file.
 
-## Example usage
+## Installation
+
+```
+pip3 install md2shunn
+```
+
+## Basic usage
 
 ```
 md2shunn --input draft01.md --author 'Edgar Allan Poe' --title 'The Tell-Tale Heart'
 # Outputs to draft01.docx
 ```
+
+## Advanced usage
+
+See `md2shunn --help`
 
 ## Features
 
