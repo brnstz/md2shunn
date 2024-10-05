@@ -48,6 +48,8 @@ _DEFAULT_CONTACT = [
 
 class __DocRenderer(Renderer):
     def __init__(self):
+        super().__init__()
+
         # Our core document
         self.document = _DOCUMENT
 
